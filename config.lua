@@ -70,10 +70,10 @@ Config.Sell = {
         ["price"] = math.random(45, 60)                             -- Seller Price
     },
     ["tree_bark"] = {
-        ["price"] = math.random(20, 30)
+        ["price"] = math.random(20, 60)
     },
     ["wood_plank"] = {
-        ["price"] = math.random(65, 100)
+        ["price"] = math.random(60, 250)
     },
 }
 
