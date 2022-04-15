@@ -5,18 +5,18 @@ Config.Timeout = 20 * (60 * 1000)                                   -- 20 minute
 
 -- Blips
 LumberDepo = {
-    targetZone = vector3(1167.73, -1347.27, 33.92),                 -- qb-target vector
-    targetHeading = 273.47,                                         -- qb-target box zone
-    coords = vector4(1167.73, -1347.27, 33.92, 273.47),             -- Move Location (Ped and blip)
+    targetZone = vector3(-773.42, 5597.95, 33.49),                  -- qb-target vector
+    targetHeading = 345,                                            -- qb-target box zone
+    coords = vector4(-773.42, 5598.1, 33.61, 172.01),               -- Move Location (Ped and blip)
     SetBlipSprite = 85,                                             -- Blip Icon (https://docs.fivem.net/docs/game-references/blips/)
     SetBlipDisplay = 6,                                             -- Blip Behavior (https://docs.fivem.net/natives/?_0x9029B2F3DA924928)
     SetBlipScale = 0.85,                                            -- Blip Size
     SetBlipColour = 5,                                              -- Blip Color
     BlipLabel = "Lumber Depo",                                      -- Blip Label
-    minZ = 31.92,                                                   -- Max Z
+    minZ = 31,                                                      -- Max Z
     maxZ = 35.92,                                                   -- Max Z
     Vehicle = 'tiptruck',                                           -- Job Vehicle
-    VehicleCoords = vector4(1162.27, -1318.55, 34.74, 173.91),      -- Job Vehcile Coords
+    VehicleCoords = vector4(-772.06, 5578.45, 33.12, 90.61),        -- Job Vehcile Coords
 }
 LumberProcessor = {
     targetZone = vector3(-517.13, 5331.54, 79.26),
@@ -31,16 +31,16 @@ LumberProcessor = {
     maxZ = 81.26,
 }
 LumberSeller = {
-    targetZone = vector3(259.44, -3059.57, 4.86),
-    targetHeading = 131.34,
-    coords = vector4(259.44, -3059.57, 4.86, 131.34),
+    targetZone = vector3(-1101.18, 4940.72, 218.35),
+    targetHeading = 340,
+    coords = vector4(-1101.38, 4940.76, 218.35, 265.6),
     SetBlipSprite = 605,
     SetBlipDisplay = 6,
     SetBlipScale = 0.85,
     SetBlipColour = 45,
     BlipLabel = "Lumber Seller",
-    minZ = 2.86,
-    maxZ = 6.86,
+    minZ = 215,
+    maxZ = 220,
 }
 
 LumberJob = {
