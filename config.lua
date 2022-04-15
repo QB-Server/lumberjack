@@ -48,21 +48,21 @@ LumberJob = {
     LumberHash = 0xD7DA9E99,                                        -- Hash numbers for ped model
     
     ChoppingTreeTimer = 12 * 1000,                                  -- 12 second timer
-    ProcessingTime = 10 * 1000,                                     -- 10 second timer
+    ProcessingTime = 15 * 1000,                                     -- 10 second timer
 
     LumberAmount_Min = 2,
     LumberAmount_Max = 6,
 
-    TreeBarkAmount_Min = 1,
+    TreeBarkAmount_Min = 3,
     TreeBarkAmount_Max = 10,
 
-    TradeAmount_Min = 3,
-    TradeAmount_Max = 6,
+    TradeAmount_Min = 10,
+    TradeAmount_Max = 300,
 
-    TradeRecevied_Min = 1,
-    TradeRecevied_Max = 3,
+    TradeRecevied_Min = 8,
+    TradeRecevied_Max = 10,
 
-    AxePrice = 100,                                                 -- Axe Price ($100)
+    AxePrice = 1500,                                                 -- Axe Price ($100)
 }
 
 Config.Sell = {
